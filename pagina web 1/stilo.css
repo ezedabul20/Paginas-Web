@@ -1,0 +1,304 @@
+*{box-sizing: border-box; transition: all .3s ease; }
+
+.cuadrog{
+    position: relative;
+    width: 100%;
+    height: 455px;
+    float: left;
+}
+
+.cuadrog2{
+    position: relative;
+    width: 100%;
+    height: 470px;
+    float: left;
+}
+
+.perro{
+    position: relative;
+    width: 70%;
+    height: 455px;
+    float: left;  
+}
+
+.cuadr1{
+    position: relative; 
+    width: 30%;
+    height: 450px;
+    float: left;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.cuadr2{
+    position: relative; 
+    width: 45%;
+    height: 470px;
+    float: left;
+    background-color: darkturquoise;
+}
+
+.cuadrito1{
+    position: relative; 
+    width: 55%;
+    height: 235px;
+    float: left;
+    background-color: cornsilk;
+    font-size: 10px;
+    font-family: Arial;
+    padding:30px; 
+    padding-right: 10px;
+}
+
+.cuadrito2{
+    position: relative; 
+    width: 55%;
+    height: 235px;
+    float: left;
+    background-color: lightslategrey;
+    padding: 30px;
+    padding-right: 10px;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+.cuadr3{
+    position: relative; 
+    width: 35%;
+    height: 450px;
+    float: left;
+    background-color:cadetblue;
+}
+
+.cuadr4{
+    position: relative; 
+    width: 65%;
+    height: 450px;
+    float: left;
+}
+
+.ct{
+    position: relative; 
+    width: 80%;
+    height: 125px;
+    margin: auto;
+    margin-top:1%;
+    color:white;font-size: 10px;
+    font-family: Arial;
+    padding: 10px;
+    line-height: 2;
+}
+
+.ct2{
+    position: relative; 
+    width: 80%;
+    height: 200px;
+    font-size: 10px;
+    font-family: Arial;
+    padding: 10px;
+    line-height: 2;
+}
+
+.p10 {padding: 19px;}
+
+.ct3{
+    position: relative; 
+    width: 80%;
+    height: 200px;
+    font-size: 10px;
+    font-family: Arial;
+    padding: 20px;
+    line-height: 2;
+    color:white;
+}
+
+.boton{
+    
+    position: relative;
+    border-radius: 3px 3px 3px 3px;
+    width: 25%;
+    height: 30px;
+    border: solid 1px black;
+    bottom:30%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    left: 4%;
+}
+.boton:hover{
+              background-color:dimgrey;
+    
+            }
+
+.cuadrito2 .boton{border: solid 1px white;color: white;}
+
+.fondo{
+    position: absolute;
+    background-image:url(fotos%20de%20eze%20046.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top:0;
+    left: 0;
+}
+
+.oscuro{
+    position: absolute;
+    background-color: burlywood;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+
+.cuadrito2 .fondo{background-image: url(linkin%20park.jpg);}
+
+.oscuro2{
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+
+.cuadr2 .fondo{background-image: url(naruto%203.jpg);}
+
+.oscuro3{
+    position: absolute;
+    background-color: RGB(83,172,192);
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+
+.tp{
+    position: relative;
+    width: 80%; 
+    height: 70px;
+    padding: 20px;
+    color:white;
+}
+
+.fw{font-weight: 300;}
+
+.logo{
+    background-image:url(logo2.png);
+    left:9% ;
+    top:60%;
+    background-color: red;
+    width:20%;
+    height: 70px;
+    position: absolute;
+    background-size: cover;
+}
+
+.tp2{
+    position: absolute;
+    width: 80%; 
+    height:100px;
+    color:white;
+    left:9%;
+    bottom:5%; 
+}
+
+.cuadr3 .fondo{background-image: url(konoha_no_kiiroi_senko_by_themnaxs-d3j8qo0.jpg);}
+
+.oscurof2{
+    position: absolute;
+    background-color:cadetblue ;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+
+.contf{
+    position: absolute;
+    top:15%;
+    left:5%;
+    width: 30%;
+    height: 30px; 
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+}
+.contf:nth-child(3){left:38%;}
+
+.contf:nth-child(4){
+    left:5%;
+    top:25%;
+     width: 63%;
+    height: 150px;
+}
+
+.fondofinal{
+    background-image: url(ruta.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.oscurof{
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+input{
+    width: 100%; 
+    height: 100%;
+    border: none;
+    background: none;
+    color: white;
+    padding: 10px;
+}
+
+.contimg{position: absolute;width: 50%;height: 50px;bottom: 20%;left:5%;}
+
+.cnt{position: relative;width:33.3%;height: 50px;float: left;}
+
+
+@media screen and (max-width:768px)
+{
+    .cuadrog{height: 445px; }
+     .perro{
+    width: 50%;
+    height: 445px;
+    }
+    .cuadr1{width:50%;}
+    .boton{bottom:25%;}
+    .logo{width: 30%;}
+    .ct3{bottom: 10%;}
+}
+
+@media screen and (max-width:480px)
+{
+    .cuadrog img{width: 100%;height: 100%;}
+    .cuadrog {height: 900px;}
+    .perro{
+    width: 100%;
+    height: 445px;
+    }
+   .cuadrog .cuadr1{width: 100%;}
+    .cuadrog .cuadr1 img{position: absolute; width: 10%;height: 30px; left: 1%;top:0;}
+    .cuadrog2{height: 940px;}
+    .cuadr2{width: 100%;}
+    .cuadrito1{width: 100%;}
+    .cuadrito2{width: 100%;}
+    .boton{bottom:23%;}
+    .cuadr3{width: 100%;}
+    .cuadr4{width: 100%;}
+    .cuadrito2 .boton{bottom: 29%;}
+}
+
